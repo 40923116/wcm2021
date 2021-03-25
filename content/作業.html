@@ -133,25 +133,7 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">檢視 STL << <a href='檢視 STL.html'>Previous</a> <a href='Heroku 部署.html'>Next</a> >> Heroku 部署<br /><h1>Gitlab 同步</h1>
-<p>利用 git remote add gitlab <a href="https://gitlab.com/user/repository.git">https://gitlab.com/user/repository.git</a> 可以在近端倉儲中的 .git/config 中新增一個名稱為 gitlab, 且與 <a href="https://gitlab.com/user/repository.git">https://gitlab.com/user/repository.git</a> 倉儲對應的設定. 使用者可以將此倉儲改版內容以 git push gitlab 推向 Gitlab.</p>
-<p>至於 Gitlab Pages 額外需要下列 .yml 檔案進行轉換設定:</p>
-<p>.gitlab-ci.yml</p>
-<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">pages:
-  stage: deploy
-  script:
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive</pre>
-<p></p>
-<br />檢視 STL << <a href='檢視 STL.html'>Previous</a> <a href='Heroku 部署.html'>Next</a> >> Heroku 部署</div>
+    <div id="tipue_search_content">延伸開發 << <a href='延伸開發.html'>Previous</a> <br /><h1>作業</h1><br />延伸開發 << <a href='延伸開發.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
