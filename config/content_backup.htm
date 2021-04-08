@@ -201,7 +201,98 @@ variables:
 <p style="padding-left: 30px;">lxml</p>
 <p style="padding-left: 30px;">markdown</p>
 <h1>課程</h1>
-<h2>wh1</h2>
-<p>123</p>
-<h2>w7</h2>
-<p>123</p>
+<h2>w5</h2>
+<p>各分組開始執行 W4-W9 的分組專案 (延續<span> </span><a href="http://mde.tw/wcm2021/content/Topic%200.html">Topic0</a><span> </span>的程式開發), 並從下列台灣未來 10 年科技願景內容中, 確認此舉隸屬未來創新教育體系 (<span>多元適性, 未來產業人才, 終身學習</span>) 的一環.</p>
+<p>創新教育體系下, 個人學習心態 (Mindset):</p>
+<ol>
+<li>多元適性 -<span> </span><span>自主知識</span>學習, 動手<span>實作驗證知識效用</span>, 發揮<span>個人特色</span>. (<a href="https://github.com/mdecourse/wcm2021/tree/main/downloads/textbooks">開放專業教材範例</a>)</li>
+<li>未來產業人才 -<span> </span><span>數位化</span>多元環境下 (<span>分散式版次管理</span>,<span> </span><span>區塊鍊, AI</span>), 充分與產業發展及需求結合. (<a href="https://git-scm.com/book/en/v2">Pro Git</a>,<span> </span><a href="http://mde.tw/wcm2021/downloads/blockchain/BlockchainTextBook.pdf">Blockchain</a>,<span> </span><a href="http://mde.tw/wcm2021/downloads/ai/Design_and_Development_of_High_School_AI.pdf">AI</a>)</li>
+<li>終身學習 - 以<span>敏捷</span><span> </span>(Agile) 及<span>彈性</span><span> </span>(Flexible) 學習, 適應未來科技與自然環境的變化. (<a href="https://link.springer.com/book/10.1007/978-3-319-73842-0">The Scrum Culture</a>)</li>
+</ol>
+<p>還沒有啟用 SSH 對 Github 推送的學員, 請參考<span> </span><a href="http://mde.tw/cd2021/content/SSH%20%E4%BA%86%E6%B2%92.html">SSH 了沒</a><span> </span>中的說明, 儘快啟用.</p>
+<p>一旦 Github session 設定完成, 可以從 [HKEY_CURRENT_USER\SOFTWARE\SimonTatham] 將 registry 設定匯出存為 y:\my_github.reg, 並在 start_ipv6.bat 中以  regedit.exe /S y:\my_github.reg 將設定匯入.</p>
+<h4>台灣 2030 科技願景:</h4>
+<p><a href="http://mde.tw/wcm2021/downloads/taiwan_2030_tech_vision.pdf">taiwan_2030_tech_vision.pdf</a></p>
+<p>台灣2030—創新、包容、永續, 實現樂活社會、高值經濟、強韌環境、普惠科技、創新教育等五大目標.</p>
+<p>鑒於IoT、AI 與區塊鏈等新科技應用越趨成熟，數位化轉型趨勢已然成形.</p>
+<ol>
+<li>數位科技驅動的創新社會 - 產業創新, 跨域加乘, 勞動升級.</li>
+<li>跨文化、族群、世代的多元包容社會 - 長幼安居, 青壯樂業, 族群多元.</li>
+<li>循環再生、零污染、智慧強韌的永續社會 - 循環生態, 韌性家園.</li>
+</ol>
+<p><img alt="" height="373" src="http://mde.tw/wcm2021/images/2030_tech_vision_targets.png" width="800"/></p>
+<h4>WCM2021 Programming Project:</h4>
+<p>目前的<span> </span><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a>  只提供將動態文件 config/content.htm 轉為 content 中各靜態頁面的功能, 為了能夠整理上述 CoppeliaSim 說明文件的轉換, 首先需要建立將 content 中各頁面, 設法集結為 config/content.htm 的功能, 而這項任務將列為<span> </span><a href="https://mde.tw/wcm2021">https://mde.tw/wcm2021</a>  課程中的網際內容管理課程專案.</p>
+<h4>參考資料:</h4>
+<p><a href="http://mde.tw/cd2021/content/W5.html">http://mde.tw/cd2021/content/W5.html</a></p>
+<p><a href="https://github.com/mdecourse/copsim/discussions/1">https://github.com/mdecourse/copsim/discussions/1</a></p>
+<p><a href="https://github.com/showdownjs/showdown">https://github.com/showdownjs/showdown</a></p>
+<p><a href="https://github.com/cyberbotics/webots">https://github.com/cyberbotics/webots</a></p>
+<p><a href="https://github.com/CoppeliaRobotics">https://github.com/CoppeliaRobotics</a></p>
+<p><a href="https://github.com/cyberbotics">https://github.com/cyberbotics</a></p>
+<p><a href="https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet">https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet</a></p>
+<p><a href="http://a.kmol.info:88/">http://a.kmol.info:88/</a></p><h2>w7</h2>
+<h3>Heroku-實作</h3>
+<p><span>步驟一:</span><span> </span>(<span>建立 Heroku 帳號</span>) 進入<span> </span><a href="https://heroku.com/">https://heroku.com</a>, 利用學校配發的 @gm 登記一個 Heroku 帳號, 關鍵在於密碼設定必須要至少 8 個字元, 且字元中必須包含符號, 英文字母及數字,  並且登記後要進入 @gm 帳號進行確認後才能開通 Heroku 帳號.</p>
+<p>完成帳號登記後, 必須知道目前 Heroku 只允許免費建立五個應用程式, 且每個程式的最大容量為 500MB.</p>
+<p><span>步驟二:</span><span> </span>(<span>建立 Heroku app</span>) 登入 Heroku 後, 先以 s + 學號 建立第一個 app, 完成後, 將可至 https://s學號.herokuapp.com 連線取得網站最初內容.</p>
+<p><span>步驟三:</span><span> </span>(下載 Heroku CLI) 從<span> </span><a href="http://a.kmol.info:88/heroku.7z">http://a.kmol.info:88/heroku.7z</a><span> </span>下載 Heroku cli 程式檔案, 解開至隨身碟 Y: 所在位置或者是 Hybrid 設定的位置.</p>
+<p><span>步驟四:</span><span> </span>(<span>修改命令搜尋路徑</span>) 修改隨身系統的啟動批次檔案, 讓 Windows 的命令視窗中可以執行 heroku.exe, 或者稱作"設法將 heroku.exe 所在目錄位置, 設為 Windows 搜尋路徑之一".</p>
+<p>重新啟動已經納入可執行 heroku.exe 的隨身碟 start_ipv6.bat 或 start_ipv4.bat</p>
+<p><span>步驟五:</span><span> </span>(<span>測試 heroku 執行</span>) 測試是否能夠在修改後的命令列中執行 heroku.exe, 輸入 heroku version 若回應所使用的版本表示上述路徑設定已經成功.</p>
+<p><span>步驟六:</span><span> </span>(<span>設定 heroku 代理主機</span>) 先前我們已經知道網路的應用包含 client 與 server, 不同 client 採用不同的 proxy 設定與 server 連線, 其中 firefox 作為 WWW 網路協定的 client, 有其自己的網路 Proxy 設定, 也可以直接使用操作系統的 Proxy 設定.</p>
+<p>Chrome 作為 WWW 網路協定的 client, 目前 Windows 下的最新版, 只能使用操作系統的 Proxy 設定.</p>
+<p>而 git 作為 git client 與 github server 連線的 Proxy 設定, 則寫在 y:\home_ipv6 下的 .giconfig 中,  以 git config --global http.proxy "http://your_proxy:port" 進行設定.</p>
+<p>相同的道理 heroku cli 作為<span> </span><a href="https://heroku.com/">https://heroku.com</a><span> </span>伺服器的 client 端, 也有其 Proxy 的設定方式, 也就是在 start_ipv6.bat 中加入:</p>
+<div>
+<div class="syntaxhighlighter js" id="highlighter_823628">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="js plain">REM </code><code class="js keyword">for</code> <code class="js plain">heroku login</code></div>
+<div class="line number2 index1 alt1"><code class="js plain">set HTTP_PROXY=http:</code><code class="js comments">//[2001:288:6004:17::53]:3128</code></div>
+<div class="line number3 index2 alt2"><code class="js plain">set HTTPS_PROXY=http:</code><code class="js comments">//[2001:288:6004:17::53]:3128</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><span>步驟七:</span><span> </span>(<span>設定同步倉儲</span>) 針對利用 Heroku 同步 Github Pages 上的網站內容, 只需要透過 git remote add (Heroku 指令為 heroku git:remote -a heroku_倉儲_名稱, 之後只要在 heroku login 狀態下, 可以直接利用 git push) 在近端設定一個連線到 Heroku 倉儲的代號, 就能在每次更新 Github Pages 倉儲後, 再將內容同步至 Heroku. 網際內容管理課程將使用兩種 Heroku app 設定, 也就是靜態網頁與動態網頁:</p>
+<p>靜態網頁 - 採用 php 方式部署, 讓 Heroku 將靜態網頁視為 PHP 程式, 利用 index.php 跳轉到 index.html</p>
+<p>動態網頁 - 讓 Heroku 執行 cmsimde/wsgi.py 的方式進行雲端伺服.</p>
+<p><span>步驟八:</span><span> </span>(<span>以 git 進行提交推送</span>) 利用 heroku git:remote -a 設定的同步倉儲其推送名稱內定為 "heroku", 使用者只要使用 git push heroku 就可以將改版內容推送到對應的 Heroku app 倉儲.</p>
+<p>指令操作步驟:</p>
+<div>
+<div class="syntaxhighlighter py" id="highlighter_175534">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="py comments"># 以 interactive 模式登入 Heroku, 完成後產生 y:\home_ipv6\_netrc</code></div>
+<div class="line number2 index1 alt1"><code class="py plain">heroku login </code><code class="py keyword">-</code><code class="py plain">i</code></div>
+<div class="line number3 index2 alt2"><code class="py comments"># 針對已經登入的 Heroku 帳號下的 taiwan-01 app, 設為此倉儲的 remote 同步倉儲, 且在倉儲中會自建名稱為 heroku 的 remoate site.</code></div>
+<div class="line number4 index3 alt1"><code class="py plain">heroku git:remote </code><code class="py keyword">-</code><code class="py plain">a taiwan</code><code class="py keyword">-</code><code class="py plain">no1</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>上述步驟完成後的 Heroku 網站:<span> </span><a href="https://taiwan-no1.herokuapp.com/">https://taiwan-no1.herokuapp.com</a></p>
